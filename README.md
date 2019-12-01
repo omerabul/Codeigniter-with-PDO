@@ -1,5 +1,6 @@
 # Codeigniter-with-PDO
 codeigniter pdo class library
+to integrate MYSQL PDO into codeigniter project ..
 
 To run the query within the controller
 
