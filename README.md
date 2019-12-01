@@ -8,7 +8,9 @@ To run the query within the controller
         $result =  $this->dbo->fetch_all('tbl_tableName');
         print_r($result);
     }
-# or
+
+use of prepare
+
     public function get2() {
         $this->load->library('dbo');
         $sql =  $this->dbo->prepare('SELECT * FROM table Where id=?');
